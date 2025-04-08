@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crayon Shinchan - Shiro and the Coal Town Game</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+
+
+        .banner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .title-image {
+            height: 250px;
+        }
+
+        .character-image {
+            height: 200px;
+        }
+
+        .nav {
+            text-align: center;
+            padding: 15px 0;
+            background-color: #fff;
+        }
+
+        .nav a {
+            color: #800080;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 15px;
+            font-size: 18px;
+            padding: 5px 10px;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        .nav a:hover {
+            background-color: #f0e0ff;
+        }
+
+        .game-info {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .game-title {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+
+        .platforms {
+            color: #666666;
+            font-style: italic;
+        }
+
+        .video-container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .video-title {
+            text-align: center;
+            color: #800080;
+            margin-bottom: 20px;
+            font-size: 22px;
+        }
+
+        .video-wrapper {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+        }
+
+        .video-wrapper video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+<!-- 横幅区域 -->
+<div class="banner">
+    <img src="assets/shin-chan-banner.jpg" alt="Crayon Shinchan Title" class="title-image">
+    <img src="assets/naughtiest-son.jpg" alt="Shinchan Character" class="character-image">
+</div>
+
+<!-- 导航栏 -->
+<div class="nav">
+    <a href="#">Shinchan: Shiro and the Coal Town Game</a>
+    <a href="#">Characters</a>
+    <a href="#">Who's your favorite?</a>
+</div>
+
+<!-- 游戏信息区域 -->
+<div class="game-info">
+    <div class="game-title">Shinchan: Shiro and the Coal Town</div>
+    <div class="platforms">(Available on: Nintendo Switch and Windows PC)</div>
+</div>
+
+<!-- 视频区域 -->
+<div class="video-container">
+    <div class="video-wrapper">
+        <video controls>
+            <source src="assets/shinchan-and-the-coal-town.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</div>
+
+<!-- 人物表区域 -->
+<div class="characters-container" style="max-width: 800px; margin: 40px auto; padding: 0 20px;">
+    <h2 class="section-title" style="text-align: center; color: #800080; margin-bottom: 20px; font-size: 22px;">The Characters</h2>
+
+    <table style="width: 100%; border-collapse: collapse; margin: 0 auto;">
+        <tr>
+            <td style="padding: 15px; text-align: center; vertical-align: top;">
+                <h3 style="color: #333;">Shinnosuke Nohara (Shinchan)</h3>
+                <img src="assets/character-shinchan.png" alt="Shinchan" style="width: 150px; height: auto; margin: 10px 0;">
+                <p style="color: #666;">The mischievous 5-year-old protagonist known for his hilarious antics and love of choco chips.</p>
+            </td>
+            <td style="padding: 15px; text-align: center; vertical-align: top;">
+                <h3 style="color: #333;">Himawari (Sister)</h3>
+                <img src="assets/character-himawari.png" alt="Himawari" style="width: 150px; height: auto; margin: 10px 0;">
+                <p style="color: #666;">The youngest of the Noharas. Loves shiny objects and brand-name goods.</p>
+            </td>
+            <td style="padding: 15px; text-align: center; vertical-align: top;">
+                <h3 style="color: #333;">Toru Kazama</h3>
+                <img src="assets/character-toru-kazama.webp" alt="Toru Kazama" style="width: 150px; height: auto; margin: 10px 0;">
+                <p style="color: #666;">The smart and responsible friend of Shinchan, often the voice of reason.</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding: 15px; text-align: center; vertical-align: top;">
+                <h3 style="color: #333;">Misae Nohara (Mom)</h3>
+                <img src="assets/character-misae.webp" alt="Misae" style="width: 150px; height: auto; margin: 10px 0;">
+                <p style="color: #666;">Shinchan's short-tempered but loving mother, always trying to keep him in line.</p>
+            </td>
+            <td style="padding: 15px; text-align: center; vertical-align: top;">
+                <h3 style="color: #333;">Hiroshi Nohara (Dad)</h3>
+                <img src="assets/character-hiroshi.webp" alt="Hiroshi" style="width: 150px; height: auto; margin: 10px 0;">
+                <p style="color: #666;">The laid-back father who works at a company and enjoys his evening beer.</p>
+            </td>
+            <td style="padding: 15px; text-align: center; vertical-align: top;">
+                <h3 style="color: #333;">Shiro (Family Dog)</h3>
+                <img src="assets/character-shiro.png" alt="Shiro" style="width: 150px; height: auto; margin: 10px 0;">
+                <p style="color: #666;">The family dog — small, fluffy, and sometimes the most sensible member.</p>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Favorite Character Form Section -->
+    <div class="favorite-form" style="max-width: 600px; margin: 40px auto; padding: 20px; background-color: #fff; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+        <h2 style="text-align: center; color: #800080; margin-bottom: 20px;">Who's your favorite?</h2>
+
+        <form style="margin: 0 auto;">
+            <div style="margin-bottom: 20px;">
+                <p style="font-weight: bold; margin-bottom: 5px;">Who's your favorite character?</p>
+                <select style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;">
+                    <option value="">Select a character...</option>
+                    <option value="shinchan">Shinnosuke Nohara (Shinchan)</option>
+                    <option value="himawari">Himawari (Sister)</option>
+                    <option value="kazama">Toru Kazama</option>
+                    <option value="misae">Misae Nohara (Mom)</option>
+                    <option value="hiroshi">Hiroshi Nohara (Dad)</option>
+                    <option value="shiro">Shiro (Family Dog)</option>
+                </select>
+            </div>
+
+            <div style="margin-bottom: 20px;">
+                <p style="font-weight: bold; margin-bottom: 5px;">Character not in the list? Write their name below:</p>
+                <input type="text" placeholder="Enter character name" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;">
+            </div>
+
+            <div style="margin-bottom: 20px;">
+                <p style="font-weight: bold; margin-bottom: 5px;">Why do you like this character?</p>
+                <textarea placeholder="State your reasons in a couple of lines..." style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px; min-height: 80px;"></textarea>
+            </div>
+
+            <h3 style="color: #800080; margin-bottom: 15px;">Tell us a bit more about yourself</h3>
+
+            <div style="margin-bottom: 20px;">
+                <p style="font-weight: bold; margin-bottom: 5px;">Your Name:</p>
+                <input type="text" placeholder="Enter your name" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;">
+            </div>
+
+            <div style="margin-bottom: 20px;">
+                <p style="font-weight: bold; margin-bottom: 5px;">Your Gender:</p>
+                <label style="margin-right: 15px;">
+                    <input type="radio" name="gender" value="male" style="margin-right: 5px;"> Male
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="female" style="margin-right: 5px;"> Female
+                </label>
+            </div>
+
+            <div style="margin-bottom: 25px;">
+                <p style="font-weight: bold; margin-bottom: 5px;">Your Date of Birth:</p>
+                <input type="text" placeholder="dd.mm.yyyy" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;">
+            </div>
+
+             <div style="margin-bottom: 25px;">
+                <p style="font-weight: bold; margin-bottom: 5px;">Your Email:</p>
+                 <input type="email" placeholder="Enter your email address" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;">
+            </div>
+
+            <button type="submit" style="background-color: #800080; color: white; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer; font-size: 16px; display: block; margin: 0 auto;">Submit</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
